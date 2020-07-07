@@ -1,0 +1,277 @@
+body {
+    margin: 0px;
+}
+
+.cabeza {
+    background-color: #a8dba8;
+    border-bottom: 1px solid black;
+    
+}
+
+.tienda {
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), 
+    url(assets/fondo-idea-1.jpg);
+
+    height: 1600px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-color: #F17F42;
+
+}
+
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+.logo-cabecera {
+    width: 13%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li{
+    margin-top: 10px;
+    margin-right: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mosca {
+    margin-top: -75px;
+    position: fixed;
+    z-index: 1;
+}
+
+.titulo-tienda {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+/* ############################################################################################
+                                    ESTILOS DE NOSOTROS
+###############################################################################################*/
+
+.nosotros {
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), 
+    url(assets/4287.jpg);
+
+    height: 600px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-color: #F17F42;
+
+}
+
+.titulo-nosotros {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    padding-left: 30px;
+}
+
+.texto-nosotros {
+    padding-top: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;;
+    color: whitesmoke;
+    font-style: italic;
+    padding-left: 30px;
+    padding-right: 800px;
+}
+
+
+
+
+/* ############################################################################################
+                                    ESTILOS PARA CONTACTO
+###############################################################################################*/
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.direccion {
+    width: 50%;
+}
+
+.logo-contacto {
+    width: 150px;
+    align-content: center;
+    padding-left: 200px;
+}
+
+.calle, .dire {
+    padding-left: 200px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.formulario {
+    padding-right: 150px;;
+}
+
+.leyenda {
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input {
+
+    width: 250px;
+    height: 30px;
+    background-color: #a8dba8;
+    border-radius: 60px;
+    padding-left: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#nombre:hover {
+   background-color: #79bd9a;
+}
+
+#apellido:hover {
+    background-color: #79bd9a;
+}
+
+#mail {
+
+    border-top: 50px;
+    width: 520px;
+}
+
+#mail:hover {
+    background-color: #79bd9a;
+}
+
+#mensaje {
+    width: 520px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+#mensaje:hover {
+    background-color: #79bd9a;
+}
+
+.enviar {
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background-color:#79bd9a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    border: 20px;
+}
+
+.enviar:hover {
+    background-color: #3b8686;
+}
+
+/* ############################################################################################
+                                    ESTILOS PARA EL PIE
+###############################################################################################*/
+
+
+.pie {
+    background-color: #3b8686;
+    height: 50px;
+    margin: 0px;
+}
+
+.copy {
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* ############################################################################################
+                                    ESTILOS DE PRODUCTOS
+###############################################################################################*/
+
+.linea1 {
+    display: flex;
+    justify-content: center;
+}
+
+.producto {
+    justify-content: center;
+    width: 33.33%;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+
+}
+
+.imagen-producto {
+    height: 250px;
+}
+
+.titulo-producto {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.texto-producto {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.linea2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.boton-comprar {
+    background-color: transparent;
+    border: 2px solid #cff09e;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cff09e;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 80px;
+    justify-content: center;
+    position: relative;
+    z-index: 1px;
+    
+}
+
+.boton-comprar:hover {
+    background-color: #79bd9a;
+}
